@@ -9,7 +9,7 @@ description: Provides the USER with help about Cody.
 Cody Spec Driven Development (SDD) Framework
 +------------------------------------------+
 
-Created and maintained by iCodeWith.ai
+Created and maintained by iBuildWith.ai
 (©) 2025 by Red Pill Blue Pill Studios, LLC
 ```
 

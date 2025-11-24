@@ -1,6 +1,6 @@
 ---
 command: ":cody relearn"
-description: It forces the AI AGENT to read again the Cody agent file to check for any updates.
+description: It retrains the AI AGENT on how the Cody Product Builder Toolkit works by forcing it to re-read Cody agent file.
 ---
 
 # RELEARN HOW CODY FRAMEWORK WORKS

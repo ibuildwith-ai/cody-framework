@@ -3,7 +3,7 @@
 set -e
 
 # Configuration
-GITHUB_REPO="icodewith-ai/cody-framework"
+GITHUB_REPO="ibuildwith-ai/cody-framework"
 GITHUB_ARCHIVE_URL="https://github.com/${GITHUB_REPO}/archive/refs/heads/main.zip"
 LOCAL_CONFIG_PATH="./.cody/config"
 UPGRADE_CONFIG_PATH="./.cody/config.upgrade"
