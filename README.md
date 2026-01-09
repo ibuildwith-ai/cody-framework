@@ -1,24 +1,24 @@
-# Cody Product Builder Toolkit (Cody PBT)
+# Cody Product Builder
 
-![Cody Product Builder Toolkit](./cody-logo.png)
+![Cody Product Builder](./cody-logo.png)
 
 © Copyright 2025 – Red Pill Blue Pill Studios, LLC – All Rights Reserved.
 
 ![Version](https://img.shields.io/badge/version-1.2.0-blue)
-[![License](https://img.shields.io/badge/license-Cody%20PBT-blue)](LICENSE.md)
+[![License](https://img.shields.io/badge/license-Cody%20Product%20Builder-blue)](LICENSE.md)
 
 # Join our Discord Server
 Get the latest updates, news, and more by [joining our Discord community](https://discord.gg/Mz7vdRmpJH).
 
 # Star the Repo
-If you find Cody PBT helpful, please star this repository. Thank you!
+If you find Cody Product Builder helpful, please star this repository. Thank you!
 
-# About Cody PBT
-Cody PBT (Product Builder Toolkit) is an opinionated, spec‑driven toolkit that helps product builders who use vibe coding techniques turn loose ideas into fully planned, production‑ready products using AI. Instead of jumping straight into “vibe coding,” Cody PBT guides you through a structured flow - discovery, planning, chunking, and building - so you think clearly before generating code.
+# About Cody Product Builder
+Cody Product Builder is an opinionated, spec‑driven AI agent skill that helps product builders who use vibe coding techniques turn loose ideas into fully planned, production‑ready products using AI. Instead of jumping straight into “vibe coding,” Cody Product Builder guides you through a structured flow - discovery, planning, chunking, and building - so you think clearly before generating code.
 
-Cody PBT began as a simple spec‑driven development framework, but it has evolved into a full toolkit that includes templates, scripts, commands, and a repeatable methodology for building products using AI consistently and fast.
+Cody Product Builder began as a simple spec‑driven development framework, but it has evolved into a full AI agent skill that includes templates, scripts, commands, and a repeatable methodology for building products using AI consistently and fast.
 
-# What Cody PBT Helps You Do
+# What Cody Product Builder Helps You Do
 
 ### **Idea Discovery & Refinement**  
 > Capture sparks of inspiration and shape them into clear, aligned, well‑defined product concepts.
@@ -29,37 +29,37 @@ Cody PBT began as a simple spec‑driven development framework, but it has evolv
 ### **Chunked Implementation (Versions)**  
 > Break the work into manageable, incremental “versions” that you can build, test, and ship faster with AI.
 
-# Why Cody PBT Exists
+# Why Cody Product Builder Exists
 
 AI coding tools are powerful - but without structure, things fall apart:
 
 > messy prompts → inconsistent code → unclear requirements → lost context → endless rework.
 
-Cody PBT solves this by giving you:
+Cody Product Builder solves this by giving you:
 
 - A repeatable, spec‑driven workflow AI coding tools can follow  
 - Templates and scripts that eliminate guesswork  
 - A shared rhythm between you, your team, and your AI coding agents  
 - A clear methodology that turns vibe coding techniques into predictable building  
 
-### What You Get With Cody PBT
+### What You Get With Cody Product Builder
 - A consistent structure for specs, docs, tasks, and versions  
 - Faster progress with less rework  
 - Better collaboration between humans + AI  
 - A methodology for building **products**, not just writing code  
 
-Cody PBT blends the creativity of vibe coding techniques with the structure of professional product development - powered by AI from end to end.
+Cody Product Builder blends the creativity of vibe coding techniques with the structure of professional product development - powered by AI from end to end.
 
 # Built for Product Builders Who Use Vibe Coding Techniques
 
 - **Scaffolding:** Templates, docs, and patterns to help you start faster  
-- **Agent‑friendly flexibility:** Cody PBT guides, you stay in control  
+- **Agent‑friendly flexibility:** Cody Product Builder guides, you stay in control  
 - **AI‑first integration:** Works directly with AI dev environments  
-- **Consistency at scale:** Solo or team, Cody PBT keeps everything aligned  
+- **Consistency at scale:** Solo or team, Cody Product Builder keeps everything aligned  
 
 # Core Philosophy
 
-Cody PBT bridges the gap between brainstorming and systematic development:
+Cody Product Builder bridges the gap between brainstorming and systematic development:
 
 - **Structure Without Rigidity** – Supports you without limiting creativity  
 - **Iterative Refinement** – Built‑in loops between you and AI  
@@ -118,14 +118,14 @@ Commands use the format: `:cody [command]`
 | Command | Description |
 |--------|-------------|
 | `:cody help` | Shows help and all available commands. |
-| `:cody plan` | Starts the PLAN phase and creates a new Cody PBT project. |
+| `:cody plan` | Starts the PLAN phase and creates a new Cody Product Builder project. |
 | `:cody build` | Starts the BUILD phase and creates the backlog. |
 | `:cody version build` | Builds a specific version and updates release notes once completed. |
 | `:cody version add` | Adds a new version to the backlog. |
 | `:cody refresh` | Refreshes the AI agent’s memory about the project. |
 | `:cody refresh update` | Refresh + sync: updates PRD, plan, and release notes. |
-| `:cody relearn` | Forces the AI agent to re-learn how Cody PBT works. |
-| `:cody upgrade` | Upgrades Cody PBT to the latest version. Only works with v1.2.0 or later. |
+| `:cody relearn` | Forces the AI agent to re-learn how Cody Product Builder works. |
+| `:cody upgrade` | Upgrades Cody Product Builder to the latest version. Only works with v1.2.0 or later. |
 | `:cody assets list` | Lists asset files and their purpose. |
 
 ---
@@ -181,10 +181,10 @@ Commands use the format: `:cody [command]`
 - Explore alternatives and edge cases  
 - Iterate frequently  
 
-# Installing and Using Cody PBT
+# Installing and Using Cody Product Builder
 
 ## Installing
-1. Clone or download Cody PBT from: https://github.com/ibuildwith-ai/cody-pbt
+1. Clone or download Cody Product Builder from: https://github.com/ibuildwith-ai/cody-product-builder
 2. Copy the `.cody`, `.claude`, and `.github` folders into your project root.
 
 ## Activating
@@ -196,7 +196,7 @@ Commands use the format: `:cody [command]`
 - `:cody help` – Overview of all commands  
 - `:cody plan` – Begin the structured PLAN phase  
 
-Cody PBT works with any AI Development Environment (Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, etc.) with file management capabilities.
+Cody Product Builder works with any AI Development Environment (Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, etc.) with file management capabilities.
 
 ---
 

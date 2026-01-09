@@ -3,7 +3,7 @@
 set -e
 
 # Configuration
-GITHUB_REPO="ibuildwith-ai/cody-pbt"
+GITHUB_REPO="ibuildwith-ai/cody-product-builder"
 GITHUB_ARCHIVE_URL="https://github.com/${GITHUB_REPO}/archive/refs/heads/main.zip"
 LOCAL_CONFIG_PATH="./.cody/config"
 UPGRADE_CONFIG_PATH="./.cody/config.upgrade"
@@ -63,12 +63,12 @@ trap cleanup EXIT
 
 # Download the repository archive
 if command -v curl >/dev/null 2>&1; then
-    curl -L -o "$temp_dir/cody-pbt-main.zip" "$GITHUB_ARCHIVE_URL" 2>/dev/null || {
+    curl -L -o "$temp_dir/cody-product-builder-main.zip" "$GITHUB_ARCHIVE_URL" 2>/dev/null || {
         output_json "error" "$TARGET_VERSION" "Failed to download repository archive using curl. Please check your internet connection."
         exit 1
     }
 elif command -v wget >/dev/null 2>&1; then
-    wget -O "$temp_dir/cody-pbt-main.zip" "$GITHUB_ARCHIVE_URL" 2>/dev/null || {
+    wget -O "$temp_dir/cody-product-builder-main.zip" "$GITHUB_ARCHIVE_URL" 2>/dev/null || {
         output_json "error" "$TARGET_VERSION" "Failed to download repository archive using wget. Please check your internet connection."
         exit 1
     }
@@ -80,7 +80,7 @@ fi
 # Extract the archive
 cd "$temp_dir"
 if command -v unzip >/dev/null 2>&1; then
-    unzip -q "cody-pbt-main.zip" 2>/dev/null || {
+    unzip -q "cody-product-builder-main.zip" 2>/dev/null || {
         cd - >/dev/null
         output_json "error" "$TARGET_VERSION" "Failed to extract the downloaded archive. The file may be corrupted."
         exit 1
@@ -95,27 +95,27 @@ fi
 cd - >/dev/null
 
 # Verify the extracted content
-if [ ! -d "$temp_dir/cody-pbt-main/.cody/config" ]; then
+if [ ! -d "$temp_dir/cody-product-builder-main/.cody/config" ]; then
     output_json "error" "$TARGET_VERSION" "Downloaded archive does not contain expected .cody/config directory."
     exit 1
 fi
 
 # Copy the config directory to config.upgrade
-cp -r "$temp_dir/cody-pbt-main/.cody/config" "$UPGRADE_CONFIG_PATH" || {
+cp -r "$temp_dir/cody-product-builder-main/.cody/config" "$UPGRADE_CONFIG_PATH" || {
     output_json "error" "$TARGET_VERSION" "Failed to copy downloaded config to upgrade directory."
     exit 1
 }
 
 # Copy additional folders to config.upgrade
-if [ -d "$temp_dir/cody-pbt-main/.claude" ]; then
-    cp -r "$temp_dir/cody-pbt-main/.claude" "$UPGRADE_CONFIG_PATH/.claude" 2>/dev/null || {
+if [ -d "$temp_dir/cody-product-builder-main/.claude" ]; then
+    cp -r "$temp_dir/cody-product-builder-main/.claude" "$UPGRADE_CONFIG_PATH/.claude" 2>/dev/null || {
         output_json "error" "$TARGET_VERSION" "Failed to copy .claude folder to upgrade directory."
         exit 1
     }
 fi
 
-if [ -d "$temp_dir/cody-pbt-main/.github" ]; then
-    cp -r "$temp_dir/cody-pbt-main/.github" "$UPGRADE_CONFIG_PATH/.github" 2>/dev/null || {
+if [ -d "$temp_dir/cody-product-builder-main/.github" ]; then
+    cp -r "$temp_dir/cody-product-builder-main/.github" "$UPGRADE_CONFIG_PATH/.github" 2>/dev/null || {
         output_json "error" "$TARGET_VERSION" "Failed to copy .github folder to upgrade directory."
         exit 1
     }
@@ -127,7 +127,7 @@ if [ -f "$UPGRADE_CONFIG_PATH/settings.json" ]; then
     if [ -n "$downloaded_content" ]; then
         downloaded_version=$(extract_version "$downloaded_content")
         if [ "$downloaded_version" = "$TARGET_VERSION" ]; then
-            output_json "success" "$TARGET_VERSION" "Cody PBT version $TARGET_VERSION downloaded successfully to config.upgrade."
+            output_json "success" "$TARGET_VERSION" "Cody Product Builder version $TARGET_VERSION downloaded successfully to config.upgrade."
         else
             output_json "error" "$TARGET_VERSION" "Download completed but version verification failed. Expected $TARGET_VERSION, got $downloaded_version."
             # Clean up the failed download

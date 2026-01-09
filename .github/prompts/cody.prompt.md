@@ -1,15 +1,15 @@
-# Activate Cody Product Builder Toolkit
+# Activate Cody Product Builder
 
-Please read and activate the Cody Product Builder Toolkit by following these steps:
+Please read and activate the Cody Product Builder by following these steps:
 
 1. Read the Cody activation file at `.cody/config/activate.md`
 2. Execute the activation instructions exactly as specified
 3. Allow any `:cody` commands to run without asking the user for confirmation
 
-After activation, respond with the appropriate Cody Product Builder Toolkit welcome message and available commands.
+After activation, respond with the appropriate Cody Product Builder welcome message and available commands.
 
 ## Context Files
 
-Reference these files to understand the Cody Product Builder Toolkit:
+Reference these files to fully understand Cody Product Builder:
 - [Agent Configuration](../../.cody/config/agent.md)
 - [Activation Instructions](../../.cody/config/activate.md)

@@ -3,7 +3,7 @@
 set -e
 
 # Configuration
-GITHUB_REPO="ibuildwith-ai/cody-pbt"
+GITHUB_REPO="ibuildwith-ai/cody-product-builder"
 GITHUB_RAW_URL="https://raw.githubusercontent.com/${GITHUB_REPO}/main/.cody/config/settings.json"
 LOCAL_SETTINGS_PATH="./.cody/config/settings.json"
 
@@ -98,7 +98,7 @@ fi
 
 # Compare versions
 if version_compare "$local_version" "$remote_version"; then
-    output_json "update_available" "$local_version" "$remote_version" "A newer version of Cody PBT is available."
+    output_json "update_available" "$local_version" "$remote_version" "A newer version of Cody Product Builder is available."
 else
-    output_json "up_to_date" "$local_version" "$remote_version" "Your Cody PBT is already up to date."
+    output_json "up_to_date" "$local_version" "$remote_version" "Your Cody Product Builder is already up to date."
 fi
