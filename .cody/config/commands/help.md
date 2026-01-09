@@ -10,7 +10,7 @@ Cody Product Builder
 +------------------------------------------+
 
 Created and maintained by iBuildWith.ai
-(©) 2025 by Red Pill Blue Pill Studios, LLC
+(©) 2026 by Red Pill Blue Pill Studios, LLC
 ```
 
 - Provide the **USER** with a short overview of Cody Product Builder.
