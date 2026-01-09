@@ -2,8 +2,6 @@
 
 ![Cody Product Builder](./cody-product-builder-logo.png)
 
-© Copyright 2026 – Red Pill Blue Pill Studios, LLC – All Rights Reserved.
-
 ![Version](https://img.shields.io/badge/version-1.2.1-blue)
 [![License](https://img.shields.io/badge/license-Custom-orange)](LICENSE.md)
 [![iBuildWith.ai](https://img.shields.io/badge/by-iBuildWith.ai-20c05b)](https://www.ibuildwith.ai)
@@ -12,7 +10,7 @@
 Get the latest updates, news, and more by [joining our Discord community](https://discord.gg/Mz7vdRmpJH).
 
 # Star the Repo
-If you find Cody Product Builder helpful, please star this repository. Thank you!
+⭐⭐ **If you find this skill helpful, please star this repo to show your support!** ⭐⭐
 
 # About Cody Product Builder
 Cody Product Builder is an opinionated, spec‑driven AI agent skill that helps product builders who use vibe coding techniques turn loose ideas into fully planned, production‑ready products using AI. Instead of jumping straight into “vibe coding,” Cody Product Builder guides you through a structured flow - discovery, planning, chunking, and building - so you think clearly before generating code.
@@ -199,7 +197,27 @@ Commands use the format: `:cody [command]`
 
 Cody Product Builder works with any AI Development Environment (Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, etc.) with file management capabilities.
 
----
+## Author
 
-# License
-This project is licensed under a custom license. See **[LICENSE.md](LICENSE.md)** for details.
+**iBuildWith.ai**
+
+© Copyright 2026 – Red Pill Blue Pill Studios, LLC – All Rights Reserved.
+
+Part of the Cody family of AI Agent Skills:
+- Cody Product Builder — Build products with AI
+- Cody Article Writer — Write articles with AI
+
+## License
+
+Cody Product Builder is licensed under a custom license that permits free use for product building (including commercial use), but prohibits redistribution, modification, and sale of the software itself.
+
+See [LICENSE.md](LICENSE.md) for complete terms.
+
+## Release Notes
+
+Coming soon.
+
+## Links
+
+- [iBuildWith.ai](https://www.ibuildwith.ai)
+- [Agent Skills Specification](https://agentskills.io/specification)

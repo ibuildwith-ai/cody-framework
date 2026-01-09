@@ -1,4 +1,6 @@
-# Cody Product Builder License  
+# Cody Product Builder License
+
+© Copyright 2026 - Red Pill Blue Pill Studios, LLC - All Rights Reserved.
 
 **Permission:** Permission is hereby granted to **use the Cody Product Builder solely for its intended purpose – structured documentation workflows and AI-assisted development planning. You may download or clone the official repository for personal or internal use in accordance with this intended purpose.**
 
