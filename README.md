@@ -5,7 +5,8 @@
 © Copyright 2026 – Red Pill Blue Pill Studios, LLC – All Rights Reserved.
 
 ![Version](https://img.shields.io/badge/version-1.2.1-blue)
-[![License](https://img.shields.io/badge/license-Cody%20Product%20Builder-blue)](LICENSE.md)
+[![License](https://img.shields.io/badge/license-Custom-orange)](LICENSE.md)
+[![iBuildWith.ai](https://img.shields.io/badge/by-iBuildWith.ai-20c05b)](https://www.ibuildwith.ai)
 
 # Join our Discord Server
 Get the latest updates, news, and more by [joining our Discord community](https://discord.gg/Mz7vdRmpJH).
